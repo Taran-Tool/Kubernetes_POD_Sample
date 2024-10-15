@@ -50,4 +50,9 @@ POD является минимальной единицей Kubernets, кото
 * Unknown — kube-apiserver не в курсе, что происходит с подом
 
 ## Схемы
-<img title="Kubernetes elements" height="25" src="images/kubelem.svg">
+<img title="Kubernetes elements" height="25" src="images/kubelem.png">  
+* POD - минимальная единица Kubernetes  
+* Node - фактическая или виртуальная машина на которой выполняются POD'ы  
+* Cluster - группа Node'ов объединенная для выполнения задач  
+* Services - объекты которые объединяю постоянные IP адреса и DNS для POD'ов, для взаимодействия между собой и внешним миром  
+* Controllers - управляют состоянием POD'ов, гарантируя, что определенное количество POD'ов запущено
