@@ -50,3 +50,4 @@ POD является минимальной единицей Kubernets, кото
 * Unknown — kube-apiserver не в курсе, что происходит с подом
 
 ## Схемы
+<img title="Kubernetes elements" height="25" src="images/kubelem.svg">
