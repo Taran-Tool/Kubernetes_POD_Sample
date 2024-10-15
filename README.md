@@ -39,5 +39,5 @@
 5. Вроверка работы.
    Проверить работу сервера или клиента можно просмотрев их логи с помощью команд:  
    
-   <code>kubectl logs -f app -c server</code> - сервер
-   <code>kubectl logs -f app -c client</code> - сервер
+   <code>kubectl logs -f app -c server</code> - сервер  
+   <code>kubectl logs -f app -c client</code> - клиент
